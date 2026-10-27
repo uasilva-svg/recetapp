@@ -1,0 +1,742 @@
+[
+ {
+  "id": 1,
+  "nombre": "Pasta primavera",
+  "emoji": "🍝",
+  "ingredientes": [
+   "400 g de fideos",
+   "1 zanahoria",
+   "1 zucchini",
+   "1 morrón rojo",
+   "150 g de tomates cherry",
+   "1 diente de ajo",
+   "3 cucharadas de aceite de oliva",
+   "Sal, pimienta y queso rallado a gusto"
+  ],
+  "pasos": [
+   "Lavar las verduras y cortar la zanahoria, el zucchini y el morrón en tiras pequeñas.",
+   "Poner agua con sal en una olla y llevarla a hervor.",
+   "Agregar los fideos y cocinarlos siguiendo el tiempo indicado en el paquete.",
+   "Mientras tanto, calentar el aceite en una sartén y agregar el ajo picado.",
+   "Incorporar la zanahoria y el morrón. Cocinar durante 5 minutos.",
+   "Agregar el zucchini y los tomates cherry cortados por la mitad. Cocinar otros 5 minutos.",
+   "Escurrir los fideos y mezclarlos con las verduras.",
+   "Condimentar con sal y pimienta, agregar queso rallado y servir caliente."
+  ],
+  "tags": [
+   "#vegetariano",
+   "#rápido"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "10 jun 2025"
+ },
+ {
+  "id": 2,
+  "nombre": "Ensalada griega",
+  "emoji": "🥗",
+  "ingredientes": [
+   "2 tomates",
+   "1 pepino",
+   "1/2 cebolla morada",
+   "150 g de queso feta",
+   "80 g de aceitunas negras",
+   "3 cucharadas de aceite de oliva",
+   "Jugo de 1/2 limón",
+   "Orégano, sal y pimienta a gusto"
+  ],
+  "pasos": [
+   "Lavar los tomates y el pepino.",
+   "Cortar los tomates en cubos y el pepino en rodajas.",
+   "Pelar la cebolla y cortarla en tiras finas.",
+   "Colocar las verduras en una ensaladera y agregar las aceitunas.",
+   "Cortar el queso feta en cubos y distribuirlo por encima.",
+   "Mezclar el aceite de oliva con el jugo de limón, el orégano y la pimienta.",
+   "Verter el aderezo sobre la ensalada.",
+   "Mezclar suavemente y servir fresca."
+  ],
+  "tags": [
+   "#vegetariano",
+   "#sin-gluten",
+   "#rápido"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "12 jun 2025"
+ },
+ {
+  "id": 3,
+  "nombre": "Guiso de lentejas",
+  "emoji": "🥘",
+  "ingredientes": [
+   "1 chorizo colorado",
+   "150 g de panceta ahumada",
+   "250 g de roast beef u otra carne",
+   "1 cebolla grande",
+   "2 dientes de ajo",
+   "1/2 morrón",
+   "1 papa grande",
+   "1 zanahoria",
+   "2 tomates",
+   "4 tomates secos",
+   "350 g de lentejas",
+   "1/2 vaso de puré de tomate",
+   "Sal",
+   "Pimienta",
+   "Ajo en polvo",
+   "Pimentón",
+   "2 hojas de laurel",
+   "Orégano",
+   "Aceite de oliva",
+   "Perejil"
+  ],
+  "pasos": [
+   "Revisar las lentejas y lavarlas con agua. Si el paquete lo indica, dejarlas en remojo.",
+   "Picar la cebolla, el ajo y el morrón. Cortar la zanahoria y la papa en cubos, picar los tomates y los tomates secos, y cortar la panceta, el chorizo colorado en rodajas y el roast beef en cubos.",
+   "Calentar aceite de oliva en una olla y dorar la panceta y el chorizo colorado.",
+   "Agregar el roast beef y dorarlo.",
+   "Sumar la cebolla, el ajo y el morrón. Sofreír durante unos minutos.",
+   "Agregar la zanahoria, los tomates, los tomates secos, el puré de tomate, el laurel y los condimentos (sal, pimienta, ajo en polvo, pimentón y orégano). Cocinar durante 5 minutos.",
+   "Incorporar las lentejas y cubrir con agua o caldo caliente (aproximadamente 1 litro).",
+   "Cocinar a fuego medio-bajo durante 30 a 45 minutos, según las indicaciones de las lentejas.",
+   "Agregar la papa y continuar cocinando hasta que esté tierna y las lentejas estén completamente cocidas. Añadir más agua si hace falta.",
+   "Retirar el laurel, ajustar la sal, espolvorear con perejil picado y servir caliente."
+  ],
+  "tags": [
+   "#salado"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "14 jun 2025"
+ },
+ {
+  "id": 4,
+  "nombre": "Pizza de rúcula",
+  "emoji": "🍕",
+  "ingredientes": [
+   "## Para la masa",
+   "500 g de harina de trigo",
+   "300 ml de agua tibia",
+   "7 g de levadura seca",
+   "2 cucharadas de aceite de oliva",
+   "1 cucharadita de sal",
+   "## Para la cobertura",
+   "200 g de salsa de tomate",
+   "300 g de mozzarella",
+   "100 g de rúcula fresca",
+   "50 g de queso parmesano",
+   "Aceite de oliva a gusto"
+  ],
+  "pasos": [
+   "Mezclar la levadura con el agua tibia y dejar reposar durante 5 a 10 minutos.",
+   "Colocar la harina y la sal en un recipiente. Agregar el aceite y la mezcla de levadura.",
+   "Amasar durante 8 a 10 minutos hasta obtener una masa suave.",
+   "Tapar y dejar levar entre 45 y 60 minutos, hasta que aumente de tamaño.",
+   "Precalentar el horno a 220 °C.",
+   "Estirar la masa, colocarla en una pizzera aceitada y distribuir la salsa de tomate.",
+   "Hornear durante unos 8 a 10 minutos.",
+   "Agregar la mozzarella y hornear otros 8 a 12 minutos, hasta que la masa esté cocida y el queso derretido.",
+   "Retirar del horno y colocar encima la rúcula lavada y bien seca.",
+   "Terminar con queso parmesano y un chorrito de aceite de oliva."
+  ],
+  "tags": [
+   "#vegetariano"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "15 jun 2025"
+ },
+ {
+  "id": 5,
+  "nombre": "Brownies veganos",
+  "emoji": "🧁",
+  "ingredientes": [
+   "200 g de harina de trigo",
+   "40 g de cacao amargo",
+   "150 g de azúcar",
+   "200 ml de bebida vegetal",
+   "80 ml de aceite",
+   "100 g de chocolate negro apto para veganos",
+   "1 cucharadita de esencia de vainilla",
+   "1 cucharadita de polvo para hornear",
+   "Una pizca de sal",
+   "50 g de nueces, opcional"
+  ],
+  "pasos": [
+   "Precalentar el horno a 180 °C y aceitar una fuente cuadrada.",
+   "Picar el chocolate y derretirlo a baño María o en intervalos cortos en el microondas.",
+   "En un recipiente, mezclar el azúcar, el aceite, la bebida vegetal y la esencia de vainilla.",
+   "Incorporar el chocolate derretido y mezclar.",
+   "Agregar la harina, el cacao, el polvo para hornear y la sal previamente tamizados.",
+   "Mezclar hasta integrar los ingredientes sin batir demasiado.",
+   "Incorporar las nueces picadas si se desea.",
+   "Verter la preparación en la fuente y distribuirla uniformemente.",
+   "Hornear durante 20 a 30 minutos. El centro debe quedar húmedo, pero la preparación tiene que estar cocida.",
+   "Retirar del horno y dejar enfriar antes de cortar en cuadrados."
+  ],
+  "tags": [
+   "#vegano",
+   "#dulce"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "16 jun 2025"
+ },
+ {
+  "id": 6,
+  "nombre": "Ceviche peruano",
+  "emoji": "🐟",
+  "ingredientes": [
+   "500 g de pescado blanco fresco apto para consumo crudo",
+   "Jugo de 4 limones",
+   "1 cebolla morada",
+   "1 ají amarillo",
+   "Cilantro fresco",
+   "Sal a gusto",
+   "Hojas de lechuga para acompañar"
+  ],
+  "pasos": [
+   "Mantener el pescado refrigerado hasta el momento de prepararlo.",
+   "Cortarlo en cubos de aproximadamente 2 cm con un cuchillo limpio.",
+   "Colocar el pescado en un recipiente frío y agregar el jugo de limón y la sal.",
+   "Incorporar la cebolla morada cortada en tiras finas y el ají amarillo picado, sin semillas si se desea menos picante.",
+   "Agregar cilantro fresco picado y mezclar suavemente.",
+   "Dejar reposar brevemente en la heladera para integrar los sabores.",
+   "Servir inmediatamente con hojas de lechuga."
+  ],
+  "nota": "Importante: el limón no elimina todos los microorganismos ni garantiza que el pescado crudo sea seguro. Para personas embarazadas, niños pequeños o personas inmunodeprimidas, es preferible una preparación con pescado completamente cocido.",
+  "tags": [
+   "#sin-gluten",
+   "#salado"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "16 jun 2025"
+ },
+ {
+  "id": 7,
+  "nombre": "Sorrentinos de jamón y queso",
+  "emoji": "🍝",
+  "ingredientes": [
+   "## Para la masa",
+   "400 g de harina de trigo",
+   "4 huevos",
+   "1 cucharada de aceite",
+   "Una pizca de sal",
+   "Agua, si hace falta",
+   "## Para el relleno",
+   "200 g de jamón cocido",
+   "250 g de mozzarella",
+   "150 g de ricota",
+   "Sal y pimienta a gusto",
+   "## Para acompañar",
+   "500 g de salsa de tomate",
+   "Queso rallado a gusto"
+  ],
+  "pasos": [
+   "Colocar la harina en la mesada y formar un hueco en el centro.",
+   "Agregar los huevos, el aceite y la sal.",
+   "Mezclar desde el centro hacia afuera y amasar hasta lograr una masa lisa. Si está muy seca, agregar un poco de agua.",
+   "Envolver la masa y dejarla descansar durante 20 a 30 minutos.",
+   "Picar el jamón y cortar la mozzarella en cubitos pequeños.",
+   "Mezclar el jamón, la mozzarella y la ricota. Condimentar con sal y pimienta.",
+   "Estirar la masa finamente y colocar pequeñas porciones del relleno, dejando espacio entre ellas.",
+   "Cubrir con otra lámina de masa y presionar alrededor del relleno para quitar el aire y sellar.",
+   "Cortar los sorrentinos y presionar bien los bordes.",
+   "Hervir abundante agua con sal y cocinar los sorrentinos hasta que la masa esté cocida y el relleno bien caliente, aproximadamente entre 4 y 7 minutos según el grosor.",
+   "Calentar la salsa de tomate en otra olla.",
+   "Escurrir los sorrentinos con cuidado, cubrirlos con la salsa y servir con queso rallado."
+  ],
+  "tags": [
+   "#salado"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "17 jun 2025"
+ },
+ {
+  "id": 8,
+  "nombre": "Ravioles de ricota y verdura",
+  "emoji": "🍝",
+  "ingredientes": [
+   "## Para la masa",
+   "400 g de harina de trigo",
+   "4 huevos",
+   "1 cucharada de aceite",
+   "Sal a gusto",
+   "## Para el relleno",
+   "300 g de ricota",
+   "200 g de espinaca",
+   "50 g de queso rallado",
+   "1 huevo",
+   "Nuez moscada, sal y pimienta",
+   "## Para la salsa",
+   "500 g de tomate triturado",
+   "1 cebolla",
+   "1 diente de ajo",
+   "2 cucharadas de aceite"
+  ],
+  "pasos": [
+   "Mezclar la harina con los huevos, el aceite y la sal.",
+   "Amasar hasta obtener una masa uniforme, taparla y dejarla descansar 30 minutos.",
+   "Lavar la espinaca y cocinarla hasta que esté tierna.",
+   "Escurrirla muy bien, picarla y dejarla enfriar.",
+   "Mezclar la espinaca con la ricota, el queso rallado y el huevo. Condimentar.",
+   "Estirar la masa en láminas finas.",
+   "Distribuir pequeñas porciones del relleno sobre una lámina, dejando espacio entre ellas.",
+   "Cubrir con otra lámina y presionar alrededor de cada porción para sellar los ravioles.",
+   "Cortarlos y revisar que los bordes estén bien cerrados.",
+   "Para la salsa, picar la cebolla y el ajo, sofreírlos con aceite y agregar el tomate triturado.",
+   "Cocinar la salsa durante 15 a 20 minutos.",
+   "Hervir los ravioles en abundante agua con sal hasta que la masa esté cocida y el relleno caliente.",
+   "Escurrirlos con cuidado, cubrirlos con la salsa y servir."
+  ],
+  "tags": [
+   "#vegetariano",
+   "#salado"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "17 jun 2025"
+ },
+ {
+  "id": 9,
+  "nombre": "Pastel de papa",
+  "emoji": "🥘",
+  "ingredientes": [
+   "700 g de carne picada",
+   "1 kg de papas",
+   "1 cebolla",
+   "1/2 morrón",
+   "2 huevos duros",
+   "50 ml de leche",
+   "30 g de manteca",
+   "2 cucharadas de aceite",
+   "Sal, pimienta, pimentón y comino",
+   "Queso rallado opcional"
+  ],
+  "pasos": [
+   "Pelar las papas, cortarlas en trozos y hervirlas hasta que estén tiernas.",
+   "Escurrirlas y hacer un puré con la leche, la manteca y una pizca de sal.",
+   "Picar la cebolla y el morrón.",
+   "Calentar el aceite en una sartén y cocinar la cebolla y el morrón durante 5 minutos.",
+   "Agregar la carne picada y cocinarla completamente, revolviendo para separar los trozos.",
+   "Condimentar con sal, pimienta, pimentón y comino.",
+   "Incorporar los huevos duros picados y mezclar.",
+   "Colocar el relleno en una fuente para horno.",
+   "Cubrir con el puré de papa y emparejar la superficie con una cuchara.",
+   "Agregar queso rallado si se desea.",
+   "Hornear a 200 °C durante 20 a 25 minutos, hasta que la superficie esté dorada y el interior bien caliente.",
+   "Dejar reposar unos minutos antes de servir."
+  ],
+  "tags": [
+   "#salado"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "18 jun 2025"
+ },
+ {
+  "id": 10,
+  "nombre": "Milanesa con puré de papa",
+  "emoji": "🥩",
+  "ingredientes": [
+   "4 bifes finos de carne",
+   "2 huevos",
+   "200 g de pan rallado",
+   "2 cucharadas de leche",
+   "1 diente de ajo",
+   "Perejil picado",
+   "Sal y pimienta",
+   "Aceite para cocinar",
+   "## Para el puré",
+   "1 kg de papas",
+   "50 g de manteca",
+   "100 ml de leche",
+   "Sal y nuez moscada"
+  ],
+  "pasos": [
+   "Pelar las papas y cortarlas en trozos similares.",
+   "Hervirlas en agua con sal durante 20 a 25 minutos, hasta que estén tiernas.",
+   "Escurrirlas y pisarlas mientras están calientes.",
+   "Agregar la manteca y la leche caliente de a poco. Mezclar hasta obtener un puré cremoso y condimentar.",
+   "En un recipiente, batir los huevos con la leche, el ajo picado, el perejil, la sal y la pimienta.",
+   "Pasar cada bife por la mezcla de huevo y después por el pan rallado, presionando suavemente.",
+   "Para una versión al horno, colocar las milanesas en una fuente aceitada y rociarlas con un poco de aceite.",
+   "Hornear a 200 °C durante aproximadamente 20 a 25 minutos, dándolas vuelta a mitad de cocción, hasta que estén doradas y completamente cocidas.",
+   "Servir las milanesas calientes junto con el puré de papa."
+  ],
+  "tags": [
+   "#salado"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "18 jun 2025"
+ },
+ {
+  "id": 11,
+  "nombre": "Milanesa a la napolitana",
+  "emoji": "🥩",
+  "ingredientes": [
+   "4 milanesas de carne",
+   "2 huevos",
+   "200 g de pan rallado",
+   "200 g de salsa de tomate",
+   "250 g de mozzarella",
+   "4 fetas de jamón cocido, opcional",
+   "Orégano, sal y pimienta",
+   "Aceite"
+  ],
+  "pasos": [
+   "Batir los huevos con sal, pimienta y un poco de orégano.",
+   "Pasar las milanesas por el huevo y después por el pan rallado.",
+   "Colocarlas en una fuente aceitada y agregar un poco de aceite por encima.",
+   "Hornear a 200 °C durante unos 15 minutos.",
+   "Dar vuelta las milanesas y continuar cocinando hasta que estén casi listas y completamente cocidas.",
+   "Cubrir cada una con una cucharada de salsa de tomate.",
+   "Agregar el jamón cocido si se desea y colocar la mozzarella por encima.",
+   "Llevar nuevamente al horno durante 5 a 8 minutos, hasta que el queso se derrita y burbujee.",
+   "Espolvorear con orégano y servir caliente."
+  ],
+  "tags": [
+   "#salado"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "19 jun 2025"
+ },
+ {
+  "id": 12,
+  "nombre": "Empanadas de carne",
+  "emoji": "🥟",
+  "ingredientes": [
+   "12 tapas de empanadas",
+   "500 g de carne picada",
+   "2 cebollas",
+   "1/2 morrón",
+   "2 huevos duros",
+   "50 g de aceitunas verdes",
+   "2 cucharadas de aceite",
+   "Sal, pimienta, pimentón y comino"
+  ],
+  "pasos": [
+   "Picar las cebollas y el morrón en cubos pequeños.",
+   "Calentar el aceite en una sartén y cocinar las verduras hasta que estén tiernas.",
+   "Agregar la carne picada y cocinarla completamente.",
+   "Condimentar con sal, pimienta, pimentón y comino.",
+   "Retirar del fuego y dejar enfriar el relleno.",
+   "Picar los huevos duros y las aceitunas, y mezclarlos con la carne.",
+   "Colocar una porción de relleno en el centro de cada tapa.",
+   "Humedecer ligeramente los bordes con agua, doblar las tapas y hacer el repulgue para cerrarlas.",
+   "Acomodar las empanadas en una fuente para horno.",
+   "Cocinar a 200 °C durante 20 a 25 minutos, hasta que estén doradas y la masa completamente cocida.",
+   "Dejar reposar unos minutos antes de servir."
+  ],
+  "tags": [
+   "#salado"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "19 jun 2025"
+ },
+ {
+  "id": 13,
+  "nombre": "Chocotorta",
+  "emoji": "🧁",
+  "ingredientes": [
+   "400 g de galletitas de chocolate",
+   "400 g de dulce de leche",
+   "400 g de queso crema",
+   "200 ml de leche o café frío para humedecer las galletitas",
+   "Cacao amargo o chocolate rallado para decorar"
+  ],
+  "pasos": [
+   "Colocar el dulce de leche y el queso crema en un recipiente.",
+   "Mezclar hasta obtener una crema uniforme.",
+   "Verter la leche o el café frío en un plato hondo.",
+   "Pasar cada galletita brevemente por el líquido, evitando que se desarme.",
+   "Acomodar una primera capa de galletitas en la base de una fuente.",
+   "Cubrirlas con una capa de crema de dulce de leche y queso crema.",
+   "Repetir las capas hasta terminar los ingredientes, procurando finalizar con crema.",
+   "Alisar la superficie con una espátula.",
+   "Decorar con cacao amargo o chocolate rallado.",
+   "Cubrir y llevar a la heladera durante al menos 6 horas, preferentemente toda la noche, para que tome consistencia.",
+   "Cortar en porciones y servir fría."
+  ],
+  "tags": [
+   "#dulce"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "20 jun 2025"
+ },
+ {
+  "id": 14,
+  "nombre": "Tacos de carne",
+  "emoji": "🌮",
+  "ingredientes": [
+   "500 g de carne vacuna en tiras",
+   "8 tortillas para tacos",
+   "1 cebolla",
+   "1 morrón rojo",
+   "1 tomate",
+   "1 palta",
+   "Jugo de 1 limón",
+   "2 cucharadas de aceite",
+   "Pimentón, comino, sal y pimienta"
+  ],
+  "pasos": [
+   "Cortar la carne en tiras finas.",
+   "Condimentarla con sal, pimienta, pimentón y comino.",
+   "Cortar la cebolla y el morrón en tiras.",
+   "Calentar el aceite en una sartén y cocinar la carne hasta que esté bien cocida.",
+   "Retirar la carne y cocinar la cebolla y el morrón en la misma sartén hasta que estén tiernos.",
+   "Volver a incorporar la carne y mezclar.",
+   "Cortar el tomate en cubitos y la palta en láminas.",
+   "Calentar las tortillas siguiendo las instrucciones del paquete.",
+   "Repartir la carne y las verduras sobre las tortillas.",
+   "Agregar el tomate, la palta y unas gotas de jugo de limón.",
+   "Doblar las tortillas y servir inmediatamente."
+  ],
+  "tags": [
+   "#salado"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "20 jun 2025"
+ },
+ {
+  "id": 15,
+  "nombre": "Flan casero",
+  "emoji": "🍮",
+  "ingredientes": [
+   "500 ml de leche",
+   "5 huevos",
+   "120 g de azúcar",
+   "1 cucharadita de esencia de vainilla",
+   "## Para el caramelo",
+   "150 g de azúcar",
+   "3 cucharadas de agua"
+  ],
+  "pasos": [
+   "Colocar el azúcar y el agua en una sartén o cacerola pequeña.",
+   "Cocinar a fuego medio sin revolver hasta obtener un caramelo dorado.",
+   "Verter con cuidado el caramelo en una flanera y distribuirlo por la base.",
+   "En un recipiente, mezclar los huevos con el azúcar restante, sin batir en exceso.",
+   "Calentar ligeramente la leche y agregarla poco a poco a la mezcla de huevos.",
+   "Incorporar la esencia de vainilla y mezclar.",
+   "Verter la preparación en la flanera acaramelada.",
+   "Colocar la flanera dentro de una fuente más grande con agua caliente hasta aproximadamente la mitad de su altura.",
+   "Hornear a 160 °C durante 50 a 70 minutos, hasta que el flan esté firme en los bordes y apenas tiemble en el centro.",
+   "Retirar del horno y dejar enfriar.",
+   "Llevar a la heladera durante al menos 4 horas.",
+   "Pasar un cuchillo por los bordes y desmoldar sobre un plato."
+  ],
+  "tags": [
+   "#dulce",
+   "#vegetariano"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "21 jun 2025"
+ },
+ {
+  "id": 16,
+  "nombre": "Volcán de chocolate",
+  "emoji": "🍫",
+  "ingredientes": [
+   "## Ingredientes para 4 porciones",
+   "100 g de chocolate negro",
+   "100 g de manteca",
+   "2 huevos",
+   "2 yemas",
+   "80 g de azúcar",
+   "40 g de harina de trigo",
+   "Manteca y cacao para los moldes"
+  ],
+  "pasos": [
+   "Precalentar el horno a 200 °C.",
+   "Enmantecar cuatro moldes individuales y espolvorearlos con cacao.",
+   "Picar el chocolate y derretirlo junto con la manteca a baño María o en el microondas.",
+   "En otro recipiente, mezclar los huevos, las yemas y el azúcar.",
+   "Incorporar el chocolate derretido, mezclando suavemente.",
+   "Agregar la harina tamizada y mezclar hasta obtener una preparación uniforme.",
+   "Distribuir la mezcla en los moldes, llenándolos hasta aproximadamente tres cuartos de su capacidad.",
+   "Hornear durante unos 8 a 12 minutos. El tiempo depende del horno y del tamaño de los moldes.",
+   "Retirar cuando los bordes estén firmes y el centro todavía esté blando, pero la preparación sea segura para consumir.",
+   "Dejar reposar un minuto y desmoldar con cuidado sobre platos individuales.",
+   "Servir inmediatamente, acompañado de helado o frutas si se desea."
+  ],
+  "tags": [
+   "#dulce"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "21 jun 2025"
+ },
+ {
+  "id": 17,
+  "nombre": "Helado casero",
+  "emoji": "🍨",
+  "ingredientes": [
+   "500 ml de crema de leche bien fría",
+   "300 g de leche condensada",
+   "1 cucharadita de esencia de vainilla",
+   "Chocolate picado o dulce de leche, opcional"
+  ],
+  "pasos": [
+   "Colocar la crema de leche fría en un recipiente amplio.",
+   "Batir hasta que espese y forme picos suaves, sin llegar a cortarse.",
+   "En otro recipiente, mezclar la leche condensada con la esencia de vainilla.",
+   "Incorporar la crema batida a la leche condensada en varias tandas.",
+   "Mezclar con movimientos envolventes para conservar el aire de la crema.",
+   "Agregar chocolate picado o remolinos de dulce de leche si se desea.",
+   "Verter la preparación en un recipiente apto para congelador.",
+   "Tapar bien y llevar al congelador durante al menos 6 horas, hasta que esté firme.",
+   "Antes de servir, dejar reposar unos minutos fuera del congelador para facilitar el armado de las porciones."
+  ],
+  "tags": [
+   "#dulce",
+   "#vegetariano"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "22 jun 2025"
+ },
+ {
+  "id": 18,
+  "nombre": "Panqueques con dulce de leche",
+  "emoji": "🥞",
+  "ingredientes": [
+   "250 g de harina de trigo",
+   "2 huevos",
+   "500 ml de leche",
+   "1 cucharada de azúcar",
+   "1 cucharada de aceite o manteca derretida",
+   "1 pizca de sal",
+   "300 g de dulce de leche",
+   "Manteca o aceite para la sartén"
+  ],
+  "pasos": [
+   "Colocar los huevos, el azúcar, la sal y la mitad de la leche en un recipiente.",
+   "Batir mientras se incorpora la harina poco a poco.",
+   "Agregar el resto de la leche y el aceite o la manteca derretida.",
+   "Mezclar hasta obtener una preparación líquida y sin grumos.",
+   "Dejar reposar la mezcla durante 15 minutos.",
+   "Calentar una sartén antiadherente y engrasarla ligeramente.",
+   "Verter un cucharón pequeño de mezcla y mover la sartén para cubrir la base con una capa fina.",
+   "Cocinar durante 1 a 2 minutos, hasta que los bordes comiencen a despegarse.",
+   "Dar vuelta el panqueque y cocinar el otro lado durante aproximadamente un minuto.",
+   "Repetir hasta terminar la mezcla.",
+   "Untar cada panqueque con dulce de leche y enrollarlo o doblarlo en cuatro.",
+   "Servir tibios o fríos."
+  ],
+  "tags": [
+   "#dulce",
+   "#vegetariano"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "22 jun 2025"
+ },
+ {
+  "id": 19,
+  "nombre": "Tiramisú",
+  "emoji": "🍰",
+  "ingredientes": [
+   "300 g de vainillas",
+   "250 g de queso mascarpone",
+   "200 ml de crema de leche",
+   "100 g de azúcar",
+   "250 ml de café preparado y frío",
+   "Cacao amargo para espolvorear",
+   "1 cucharadita de esencia de vainilla"
+  ],
+  "pasos": [
+   "Preparar el café y dejarlo enfriar completamente.",
+   "Colocar el mascarpone, el azúcar y la esencia de vainilla en un recipiente.",
+   "Mezclar suavemente hasta obtener una crema uniforme.",
+   "En otro recipiente, batir la crema de leche fría hasta que esté firme.",
+   "Incorporar la crema batida al mascarpone con movimientos envolventes.",
+   "Pasar cada vainilla rápidamente por el café frío, sin dejar que se empape demasiado.",
+   "Colocar una primera capa de vainillas en la base de una fuente.",
+   "Cubrir con la mitad de la crema.",
+   "Agregar una segunda capa de vainillas humedecidas y cubrir con el resto de la crema.",
+   "Alisar la superficie, tapar y llevar a la heladera durante al menos 6 horas.",
+   "Justo antes de servir, espolvorear cacao amargo por encima.",
+   "Cortar en porciones y mantener refrigerado hasta el momento de consumir."
+  ],
+  "tags": [
+   "#dulce",
+   "#vegetariano"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "23 jun 2025"
+ },
+ {
+  "id": 20,
+  "nombre": "Lemon pie",
+  "emoji": "🍋",
+  "ingredientes": [
+   "## Para la base",
+   "200 g de harina de trigo",
+   "100 g de manteca fría",
+   "70 g de azúcar",
+   "1 huevo",
+   "## Para la crema de limón",
+   "150 g de azúcar",
+   "2 huevos",
+   "2 yemas",
+   "150 ml de jugo de limón",
+   "Ralladura de 2 limones",
+   "30 g de maicena",
+   "300 ml de agua",
+   "30 g de manteca",
+   "## Para el merengue",
+   "3 claras de huevo",
+   "150 g de azúcar"
+  ],
+  "pasos": [
+   "Preparar la masa: mezclar la harina con el azúcar y la manteca fría cortada en cubitos.",
+   "Frotar los ingredientes con las manos hasta obtener una textura arenosa.",
+   "Agregar el huevo y unir sin amasar demasiado.",
+   "Envolver la masa y dejarla descansar en la heladera durante 30 minutos.",
+   "Precalentar el horno a 180 °C.",
+   "Estirar la masa y cubrir una tartera previamente enmantecada. Pinchar la base con un tenedor.",
+   "Cubrir con papel para horno y colocar encima pesos de cocción, como legumbres secas. Hornear durante 15 minutos.",
+   "Retirar el papel y los pesos, y hornear otros 5 a 10 minutos, hasta que la base esté dorada. Dejar enfriar.",
+   "Preparar la crema: mezclar en una cacerola el azúcar, la maicena y el agua.",
+   "Agregar el jugo y la ralladura de limón. Cocinar a fuego medio, revolviendo continuamente.",
+   "Cuando la mezcla espese, retirar del fuego. Batir los huevos y las yemas en un recipiente aparte e incorporarles poco a poco un poco de la mezcla caliente, revolviendo.",
+   "Volver a colocar todo en la cacerola y cocinar brevemente a fuego bajo, revolviendo, hasta que la crema esté bien cocida y espesa.",
+   "Retirar del fuego, agregar la manteca y mezclar hasta integrar. Dejar entibiar.",
+   "Preparar el merengue: colocar las claras y el azúcar en un recipiente resistente al calor. Calentar a baño María, revolviendo, hasta que el azúcar se disuelva y la mezcla alcance 71 °C.",
+   "Retirar del calor y batir con batidora eléctrica hasta obtener un merengue firme y brillante.",
+   "Armar el lemon pie: distribuir la crema de limón sobre la base ya horneada y fría.",
+   "Colocar el merengue por encima con una espátula o una manga pastelera.",
+   "Dorar ligeramente el merengue con un soplete de cocina o unos instantes bajo el grill, vigilándolo continuamente.",
+   "Refrigerar durante al menos 2 horas antes de cortar y servir."
+  ],
+  "tags": [
+   "#dulce",
+   "#vegetariano"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "23 jun 2025"
+ },
+ {
+  "id": 21,
+  "nombre": "Zapallitos rellenos",
+  "emoji": "🥒",
+  "ingredientes": [
+   "4 zapallitos redondos",
+   "300 g de carne picada",
+   "1 cebolla",
+   "1/2 morrón",
+   "1 tomate",
+   "100 g de queso rallado",
+   "2 cucharadas de aceite",
+   "Sal, pimienta y orégano"
+  ],
+  "pasos": [
+   "Lavar los zapallitos y hervirlos durante 8 a 10 minutos, hasta que estén ligeramente tiernos.",
+   "Escurrirlos, dejarlos enfriar un poco y cortarlos por la mitad.",
+   "Retirar cuidadosamente parte de la pulpa con una cuchara y reservarla.",
+   "Picar la cebolla, el morrón, el tomate y la pulpa de los zapallitos.",
+   "Calentar el aceite en una sartén y cocinar la cebolla y el morrón.",
+   "Agregar la carne picada y cocinarla completamente.",
+   "Incorporar el tomate y la pulpa reservada. Condimentar y cocinar unos minutos más.",
+   "Rellenar las mitades de zapallito con la preparación.",
+   "Colocarlas en una fuente para horno y cubrirlas con queso rallado.",
+   "Hornear a 200 °C durante 15 a 20 minutos, hasta que estén tiernas, calientes y el queso se haya gratinado."
+  ],
+  "tags": [
+   "#salado",
+   "#sin-gluten"
+  ],
+  "autor": "Admin Chef",
+  "fecha": "24 jun 2025"
+ }
+]

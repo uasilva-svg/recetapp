@@ -1,0 +1,10 @@
+<nav class="navbar">
+  <a class="nav-logo" href="{% url 'index' %}" style="text-decoration:none">Recet<span>App</span></a>
+  <div class="nav-right">
+    <a class="avatar-btn" href="{% url 'perfil' %}" title="Mi perfil" style="text-decoration:none">{{ user.first_name|default:user.username|first|upper }}</a>
+    <form class="logout-form" method="post" action="{% url 'logout' %}">
+      {% csrf_token %}
+      <button type="submit" class="logout-btn">Salir</button>
+    </form>
+  </div>
+</nav>

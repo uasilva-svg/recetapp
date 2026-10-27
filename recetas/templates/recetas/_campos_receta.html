@@ -1,0 +1,32 @@
+{# Campos del formulario de receta (alta y modificación). Recibe "form". #}
+<div class="form-group">
+  <label for="{{ form.nombre.id_for_label }}">{{ form.nombre.label }}</label>
+  {{ form.nombre }}
+  {{ form.nombre.errors }}
+</div>
+<div class="form-group">
+  <label for="{{ form.ingredientes.id_for_label }}">{{ form.ingredientes.label }}</label>
+  {{ form.ingredientes }}
+  {{ form.ingredientes.errors }}
+</div>
+<div class="form-group">
+  <label for="{{ form.pasos.id_for_label }}">{{ form.pasos.label }}</label>
+  {{ form.pasos }}
+  {{ form.pasos.errors }}
+</div>
+<div class="form-group">
+  <label>{{ form.tags.label }}</label>
+  <div class="tag-selector">
+    {% for cb in form.tags %}
+    <label class="tag-opt">{{ cb.tag }}<span>{{ cb.choice_label }}</span></label>
+    {% endfor %}
+  </div>
+</div>
+<div class="form-group">
+  <label for="{{ form.emoji.id_for_label }}">{{ form.emoji.label }}</label>
+  {{ form.emoji }}
+</div>
+<div class="form-group">
+  <label for="{{ form.nota.id_for_label }}">{{ form.nota.label }}</label>
+  {{ form.nota }}
+</div>

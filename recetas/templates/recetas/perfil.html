@@ -1,0 +1,66 @@
+{% extends "recetas/base.html" %}
+{% block title %}Mi perfil · RecetApp{% endblock %}
+
+{% block content %}
+<div id="page-perfil" class="page active">
+  {% include "recetas/_navbar.html" %}
+
+  <div class="perfil-hero">
+    <div class="perfil-avatar">{{ user.first_name|default:user.username|first|upper }}</div>
+    <div class="perfil-info">
+      <h2>{{ user.get_full_name|default:user.username }}</h2>
+      <p>{{ user.email|default:"—" }}</p>
+      <button type="button" class="btn btn-outline btn-sm" data-open="overlay-perfil">✏️ Editar perfil</button>
+    </div>
+  </div>
+
+  <div class="perfil-data-grid">
+    <div class="data-field"><div class="lbl">Nombre completo</div><div class="val">{{ user.get_full_name|default:"—" }}</div></div>
+    <div class="data-field"><div class="lbl">Usuario</div><div class="val">{{ user.username }}</div></div>
+    <div class="data-field"><div class="lbl">Email</div><div class="val">{{ user.email|default:"—" }}</div></div>
+    <div class="data-field"><div class="lbl">Bio</div><div class="val">{{ perfil.bio|default:"—" }}</div></div>
+  </div>
+
+  <div class="mis-recetas-section">
+    <div class="perfil-tabs">
+      <div class="ptab{% if tab == 'mis' %} active{% endif %}" data-tab="mis">🍽 Mis recetas</div>
+      <div class="ptab{% if tab == 'nueva' %} active{% endif %}" data-tab="nueva">➕ Nueva receta</div>
+    </div>
+
+    <div data-panel="mis" style="display:{% if tab == 'mis' %}block{% else %}none{% endif %}">
+      {% include "recetas/_grid.html" with recetas=mis_recetas %}
+    </div>
+
+    <div data-panel="nueva" style="display:{% if tab == 'nueva' %}block{% else %}none{% endif %}">
+      <form method="post" action="{% url 'receta_crear' %}"
+            style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:28px;max-width:600px">
+        {% csrf_token %}
+        <div style="font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:700;margin-bottom:20px">Nueva receta</div>
+        {% include "recetas/_campos_receta.html" with form=form_nueva %}
+        <div style="display:flex;gap:10px;margin-top:4px">
+          <button type="submit" class="btn btn-sage">Publicar receta</button>
+          <a class="btn btn-outline" href="{% url 'perfil' %}?tab=nueva" style="text-decoration:none">Limpiar</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- OVERLAY: Editar perfil -->
+<div class="overlay" id="overlay-perfil">
+  <div class="modal-box">
+    <h2>👤 Editar perfil</h2>
+    <form method="post" action="{% url 'perfil_editar' %}">
+      {% csrf_token %}
+      <div class="form-group"><label>Nombre completo</label>{{ form_perfil.nombre }}</div>
+      <div class="form-group"><label>Usuario</label>{{ form_perfil.usuario }}</div>
+      <div class="form-group"><label>Email</label>{{ form_perfil.email }}</div>
+      <div class="form-group"><label>Bio</label>{{ form_perfil.bio }}</div>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-outline" data-close>Cancelar</button>
+        <button type="submit" class="btn btn-sage">Guardar</button>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}

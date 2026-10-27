@@ -1,0 +1,19 @@
+<div class="recipes-grid">
+  {% for r in recetas %}
+  <a class="recipe-card" href="{% url 'detalle' r.pk %}">
+    <div class="recipe-img">{{ r.emoji }}</div>
+    <div class="recipe-body">
+      <div class="recipe-name">{{ r.nombre }}</div>
+      <div class="recipe-meta">Por {{ r.autor.get_full_name|default:r.autor.username }} · {{ r.fecha|date:"j M Y" }}</div>
+      <div class="recipe-tags">
+        {% for t in r.tags.all %}<span class="tag tag-{{ t.slug }}">{{ t.nombre }}</span>{% endfor %}
+      </div>
+    </div>
+  </a>
+  {% empty %}
+  <div class="empty" style="grid-column:1/-1">
+    <div class="empty-icon">🍽</div>
+    <div class="empty-text">No hay recetas todavía</div>
+  </div>
+  {% endfor %}
+</div>

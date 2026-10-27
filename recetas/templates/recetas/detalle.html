@@ -1,0 +1,81 @@
+{% extends "recetas/base.html" %}
+{% block title %}{{ receta.nombre }} · RecetApp{% endblock %}
+
+{% block content %}
+<div id="page-admin" class="page active">
+  {% include "recetas/_navbar.html" %}
+
+  <div class="admin-container">
+    <a class="admin-back" href="{% url 'index' %}" style="text-decoration:none">← Volver al inicio</a>
+
+    <div class="admin-img">{{ receta.emoji }}</div>
+
+    <div class="admin-title">{{ receta.nombre }}</div>
+    <div class="admin-meta">Por {{ receta.autor.get_full_name|default:receta.autor.username }} · Publicada el {{ receta.fecha|date:"j M Y" }}</div>
+    <div class="admin-tags">
+      {% for t in receta.tags.all %}<span class="tag tag-{{ t.slug }}">{{ t.nombre }}</span>{% endfor %}
+    </div>
+
+    <!-- ACCIONES ABM -->
+    <div class="admin-actions">
+      <div class="admin-actions-title">Administrar receta</div>
+      <a class="btn btn-outline" href="#admin-detalle" style="text-decoration:none">🔍 Ver / Consultar</a>
+      {% if puede_editar %}
+      <button type="button" class="btn btn-gold" data-open="overlay-editar">✏️ Editar</button>
+      <button type="button" class="btn btn-red" data-open="overlay-eliminar">🗑️ Eliminar</button>
+      {% endif %}
+    </div>
+
+    <div id="admin-detalle">
+      <div class="recipe-section">
+        <h3>Ingredientes</h3>
+        <ul class="ingredient-list">
+          {% for i in receta.ingredientes_lista %}
+          <li{% if i.titulo %} class="ing-head"{% endif %}>{{ i.texto }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="recipe-section">
+        <h3>Preparación</h3>
+        <ol class="steps-list">
+          {% for paso in receta.pasos_lista %}
+          <li class="step-item"><div class="step-num">{{ forloop.counter }}</div><div class="step-txt">{{ paso }}</div></li>
+          {% endfor %}
+        </ol>
+        {% if receta.nota %}<div class="recipe-nota">{{ receta.nota }}</div>{% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% if puede_editar %}
+<!-- OVERLAY: Editar receta -->
+<div class="overlay" id="overlay-editar">
+  <div class="modal-box">
+    <h2>✏️ Editar receta</h2>
+    <form method="post" action="{% url 'receta_editar' receta.pk %}">
+      {% csrf_token %}
+      {% include "recetas/_campos_receta.html" %}
+      <div class="modal-actions">
+        <button type="button" class="btn btn-outline" data-close>Cancelar</button>
+        <button type="submit" class="btn btn-sage">Guardar cambios</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- OVERLAY: Confirmar eliminación -->
+<div class="overlay" id="overlay-eliminar">
+  <div class="confirm-box">
+    <div class="confirm-icon">🗑️</div>
+    <div class="confirm-title">¿Eliminar esta receta?</div>
+    <div class="confirm-msg">Esta acción no se puede deshacer. La receta se borrará permanentemente.</div>
+    <form class="confirm-btns" method="post" action="{% url 'receta_eliminar' receta.pk %}">
+      {% csrf_token %}
+      <button type="button" class="btn btn-outline" data-close>Cancelar</button>
+      <button type="submit" class="btn btn-red">Sí, eliminar</button>
+    </form>
+  </div>
+</div>
+{% endif %}
+{% endblock %}
